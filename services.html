@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сімейна кондитерська «Смаколик» — Меню та послуги</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="logo">«Смаколик»</a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link active" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="menu_page_title">Наше меню та асортимент</h1>
+                <p data-i18n="menu_page_subtitle">Свіжа випічка, вишукані десерти та ароматна кава для вас</p>
+            </div>
+        </section>
+
+        <section class="menu-section section-padding">
+            <div class="container">
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_bakery">Випічка</div>
+                        <h3 data-i18n="item_1_name">Домашня випічка</h3>
+                        <p data-i18n="item_1_desc">Свіжа та ароматна випічка за домашніми рецептами.</p>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_desserts">Десерти</div>
+                        <h3 data-i18n="item_2_name">Тортики та капкейки на замовлення</h3>
+                        <p data-i18n="item_2_desc">Святкові та повсякденні торти, а також ніжні капкейки.</p>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_desserts">Десерти</div>
+                        <h3 data-i18n="item_3_name">Мусові тортики</h3>
+                        <p data-i18n="item_3_desc">Вишукані легкі мусові десерти.</p>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_desserts">Десерти</div>
+                        <h3 data-i18n="item_4_name">Тістечка</h3>
+                        <p data-i18n="item_4_desc">Різноманітні тістечка на будь-який смак.</p>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_special">Спеціальні пропозиції</div>
+                        <h3 data-i18n="item_5_name">Кенді-бари</h3>
+                        <p data-i18n="item_5_desc">Солодкі сортування та оформлення для святкових подій.</p>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="menu-category" data-i18n="cat_drinks">Напої</div>
+                        <h3 data-i18n="item_6_name">Кава та кавові напої</h3>
+                        <p data-i18n="item_6_desc">Неймовірно смачна ароматна кава та її різновиди.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 data-i18n="footer_brand">«Смаколик»</h3>
+                <p data-i18n="footer_desc">Сімейна кондитерська у Калуші. Смачно, затишно, по-домашньому.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>площа Героїв, 21, Калуш</p>
+                <p><a href="tel:+380968285059">+380 96 828 5059</a></p>
+                <p data-i18n="footer_hours">Щодня: 10:00 - 22:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Сімейна кондитерська «Смаколик». <span data-i18n="rights">Всі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
